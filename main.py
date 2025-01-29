@@ -9,6 +9,7 @@ from langchain.document_loaders import TextLoader
 import uvicorn
 from concurrent.futures import ThreadPoolExecutor
 import logging
+import request
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
