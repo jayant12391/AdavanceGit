@@ -9,7 +9,7 @@ from langchain.document_loaders import TextLoader
 import uvicorn
 from concurrent.futures import ThreadPoolExecutor
 import logging
-
+import os
 
 
 
