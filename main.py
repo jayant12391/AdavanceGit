@@ -14,7 +14,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Initialize FastAPI app
-app = FastAPI(title="QA Chatbot with RAG", description="A question-answering chatbot using Retrieval-Augmented Generation.", version="1.0")
+app = FastAPI(title="QA Chatbot with RAG", description="A question-answering chatbot using Retrieval-Augmented Generation application.", version="1.0")
 
 # Model for user queries
 class Query(BaseModel):
